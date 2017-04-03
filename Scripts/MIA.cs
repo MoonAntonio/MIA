@@ -70,6 +70,16 @@ namespace Pendulum.Controller
 			// Optimizador de CPU
 			tempTime++;
 
+			// Actualizar rango
+			if (AlexandriaManager.intensidadLuz == true)
+			{
+				rango = 10;
+			}
+			else
+			{
+				rango = 3;
+			}
+
 			if (tempTime > timeActualizar)
 			{
 				tempTime = 0;

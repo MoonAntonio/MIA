@@ -9,6 +9,7 @@
 
 #region Librerias
 using UnityEngine;
+using Pendulum.Controller;
 #endregion
 
 namespace Pendulum
@@ -19,5 +20,22 @@ namespace Pendulum
 	[AddComponentMenu("Pendulum/Utiles/LightCollider")]
 	public class LightCollider : MonoBehaviour
 	{
+		#region Eventos Unity
+		private void OnTriggerStay(Collider other)
+		{
+			if (other.tag == "Player")
+			{
+				if (AlexandriaManager.intensidadLuz == false) AlexandriaManager.intensidadLuz = true;
+			}
+		}
+
+		private void OnTriggerExit(Collider other)
+		{
+			if (other.tag == "Player")
+			{
+				if (AlexandriaManager.intensidadLuz == true) AlexandriaManager.intensidadLuz = false;
+			}
+		}
+		#endregion
 	}
 }

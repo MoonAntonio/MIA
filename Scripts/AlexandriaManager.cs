@@ -19,6 +19,11 @@ namespace Pendulum.Controller
 	[AddComponentMenu("Pendulum/Controller/AlexandriaManager")]
 	public class AlexandriaManager : MonoBehaviour
 	{
-
+		#region Variables Globales
+		/// <summary>
+		/// <para>Si la intensidad de la luz es true, los guerreros de la luz tendran mas rango.</para>
+		/// </summary>
+		public static bool intensidadLuz = false;											// Si la intensidad de la luz es true, los guerreros de la luz tendran mas rango
+		#endregion
 	}
 }
