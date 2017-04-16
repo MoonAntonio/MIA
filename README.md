@@ -4,7 +4,7 @@
 [![Slack Status](https://moonantonio.herokuapp.com/badge.svg)](https://moonantonio.herokuapp.com/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MoonAntonio/MIA/master/LICENSE)
 
-# MIA
+# MIA [Deprecated]
 IA del enemigo para el proyecto de TFG
 
 <p align="center"><img src="https://github.com/MoonAntonio/MIA/blob/master/prevMIA.gif?raw=true"></p>
